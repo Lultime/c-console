@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>server</class>
+ <widget class="QDialog" name="server">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>493</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="4">
+    <widget class="QTextEdit" name="textmessage"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QComboBox" name="combo_client_list"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="combo_send_message_type">
+     <item>
+      <property name="text">
+       <string>All</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>individuel</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="linemessage"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="sendmessage">
+     <property name="text">
+      <string>send message</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
